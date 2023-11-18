@@ -1,0 +1,82 @@
+.bg-image-main {
+  background: url("https://www.remessaonline.com.br/blog/wp-content/uploads/2022/08/maior-canal-do-youtube-1200x675.jpg")
+    no-repeat left center;
+  background-size: cover;
+  position: absolute;
+  height: 90vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+}
+
+.bg-image-main::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: black;
+  opacity: 80%;
+  z-index: -2;
+}
+
+.bg-image {
+  background: url("https://img.freepik.com/premium-vector/colorful-liquid-background-liquid-paper-marbling-paint-background-marble-texture_630814-57.jpg")
+    no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  opacity: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.paper-texture {
+  background: url("https://static.vecteezy.com/system/resources/previews/020/826/878/non_2x/white-crinkled-paper-texture-background-and-glued-paper-wrinkled-effect-free-photo.jpg")
+    no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.value p:nth-child(1) {
+  letter-spacing: -2px;
+}
+
+.container-ninchos ul li {
+  list-style: url("./assets/check-lg.svg");
+}
+
+.container-cards-premim .premiun:nth-child(1)::before {
+  content: "MELHOR OFERTA!";
+  display: flex;
+  width: 125px;
+  height: 125px;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+  top: -50px;
+  left: -70px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000%;
+  background-color: #ff3e59;
+  box-shadow: 1px 1px 10px rgb(77, 77, 77);
+}
+
+form input:last-child{
+  top: 48.1%;
+  right: 42.90%;
+}
